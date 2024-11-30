@@ -1,0 +1,61 @@
+Set
+
+Set is a data structure that holds a collection values. The values however must be unique
+Set can contain a mix of different data types. You can store strings booleans, numbers or even objects all in the same set.
+
+Sets are dynamically sized. You do not have to declare the size of a set before creating it
+
+Sets do not maintain an insertion order, in mordern js they do maint the order 
+
+Sets are iterables. They can be used with a for of loop.
+
+--------------------------------------------------------------------------------------------------------------
+
+Set vs Arrays
+
+Array can contain duplicate values 
+where as Sets cannot.
+
+Insertion order is maintained in arrays but it is not the case with sets
+
+Searching and deleting an elements in the set is faster as compared to arrays.
+
+-----------------------------------------------------------------------
+
+// To create a new set we use set constructor (keyword)
+
+const set_1 = new Set([1,2,3])
+
+//using for op loop to iterate oer the elements in a set
+
+for(const item of set_1){
+    console.log(item)
+}
+
+// to add new value we use add method
+
+set_1.add(4)
+console.log(set_1)
+// if we try adding the duplicate value then we see that set ignores it
+
+set_1.add(4)
+console.log(set_1)
+
+// .has : to check if that particular element exist in an set or not
+
+console.log(set_1.has(3))
+
+// to delete the value form set we use delete method
+
+set_1.delete(2)
+console.log(set_1)
+
+// set.size() property 
+
+
+console.log(set_1.size)
+
+// clearing entire set
+
+set_1.clear()
+console.log(set_1)

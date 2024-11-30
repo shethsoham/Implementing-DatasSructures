@@ -1,0 +1,33 @@
+Stack
+
+The stack data structure is a sequential collection of elements that follows the principle of Last in first Out (LIFO)
+
+The last elements inserted into the stack is first element to be removed
+
+example : A stack of plates.The last plate placed on top of the stack is also the first plate removed from the stack.
+
+Stack is a abstract data type. It is defined by its behavior rather than being a mathematical model.
+
+The stack data structure supports two main operations 
+
+1.Push, which add an elements to the collection 
+2.Pop, which removes the most recently added element from the collection.
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+Stack Usage 
+
+(Typically stack is great when you have to trace back your steps)
+
+Browser history tracking.
+Undo operation when typing 
+Expression conversion 
+Call stack in javascript runtime
+
+--------------------------------------------------------
+
+Implementation of stack 
+
+
+
