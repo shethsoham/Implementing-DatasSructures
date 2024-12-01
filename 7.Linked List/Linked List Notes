@@ -1,0 +1,42 @@
+Linked List
+
+A linked list a linear DS that includes a series of connected Data structures.
+
+Each node consists of a data value and a pointer that points to the next node.
+
+Order of node is not given by physical placement of their memory, instead each node points top the next.
+----------------------------------------------------------------------------------------------------------
+
+Advantage of linked List using over array 
+
+The list elements can be easily inserted or removed without reallocation or reorganization of the entire structure.
+--------------------------------------------------------------------------------------------------------------
+
+Disadvantage 
+
+Random access of element is not feasible and accessing an element has linear time complexity -O(n)
+--------------------------------------------------------------------------------------------------------------
+
+The linked List Data structure supports 3 main operations
+
+1) Insertion: to add an element at the beginning, end or at a given index in the list
+2) Deletion: to remove an item given its index or value
+3) Search: To find an element given its value.
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Series of connected nodes
+data| pointer to next node --------------> data| pointer to next node -------------->data | Null
+
+pointer of last data is null. It does not point any where else.
+
+--------------------------------------------------------------------------------------------------------------
+
+Usage of Linked List
+
+All applications of both stack and queues are applications of linked list.
+
+Image viewer : Slide show
+
+--------------------------------------------------------------------------------------------------------------

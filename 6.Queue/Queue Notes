@@ -1,0 +1,70 @@
+Queue (FIFO)
+
+The queue data structure is a sequential collection of elements that follows the principle of FIFO (First In First Out)
+
+The first element inserted into the queue is first element to be removed
+
+Example: A queue of people. 
+         People enter the queue at one end(rear/tail) and leave the queue from the other end(front/head).
+        
+Queue is an abstract data type.
+It is defined by it's behavior rather than being a mathematical model.
+
+The Queue Data Structure supports 2 main operations
+
+1) Enqueue : which adds an element to the rear/tail of the collection.
+2) Dequeque: which removes an element from the front/head of the collection.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Queue usage 
+
+printers
+CPU task scheduling
+Callback queue in Javascript Runtime
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Implementing queue data structures
+
+enqueue(element)- add an element to the queue
+dequeue() - remove an element from the queue
+peek() - get the value of the element at the front of the queue without removing it
+isEmpty() - check if the queue is empty
+size() - get the number of elements in the queue
+print() -visualize the elements in the queue
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Queue Implemented optimization : we used object instead of array
+we implement queue using array. 
+But dequeue operation passed O(n)-linear time complexity because we used shift method.
+
+Let us use object for queue and dequeue ao that we would get constant time complexity O(1).
+--------------------------------------------------------------------------------------------------------------------------------
+
+Circular Queue
+
+The size of the queue is fixed and a single block of memory is used as if first element is connected to the last element
+
+Also referred to as circular buffer or ring buffer and follows the FIFO principle
+
+A circular queue will reuse the empty block created during the dequeue operations
+
+When working with queues of fixed maximum size, a circular queue is a great implementation choice.
+
+The circular Queue data structure supports 2 main operations
+
+1) Enqueue, which adds an element to tail/rear of the collection
+2) Dequeue, which removes an element from the head/front of the collection.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Circular Queue Usage 
+
+Clock 
+Streaming Data
+Buffer
+Traffic lights

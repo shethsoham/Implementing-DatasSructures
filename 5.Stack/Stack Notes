@@ -29,5 +29,32 @@ Call stack in javascript runtime
 
 Implementation of stack 
 
+1) Created class stack 
+Created different functions ,, Instance methods: 
+2) push
+3) pop
+4) peek
+5) isEmpty
+6) size
+7) print
+8) clear
 
+------------------------------------------------------------------------------------------------------------------
 
+Why stack and queues instead of arrays?
+It comes down to requirements.
+Stack/Queue are ideal for enforcing sequential rules of access (LIFO & FIFO as you stated) while Array is ideal for allowing random access as desired.
+
+Let me give some real life examples (since OOP programming often mimics real world scenarios) :
+Stack : Washing of plates - the one at the top gets washed first.
+Queue : Booking movie tickets (offline mode :P )
+Array : Visit to a grocery store where the customer picks what he wants.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Well , it completely depends upon the application and the requirements. You can very well implement the LIFO and FIFO functionality using an array, but you are not sure as to the size of the array your app would require , so you end up using a stack/queue.
+Example 1: DFS for very large graph : you would require to use a stack as you donot know the number of nodes at each level.
+Example 2: BFS for large graphs: same reason as above( you donot know the numbers of neighbors a vertex may have)
+Exammple 3: Simulating an infinite capacity router : You donot know as to what maximum length queue can achieve during the simulation.
+
+----------------------------------------------------------------------------------------------------------------------------------
